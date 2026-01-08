@@ -1,0 +1,36 @@
+kds_hackathon/
+│
+├── README.md
+├── requirements.txt
+├── run_pipeline.py
+│
+├── config/
+│   ├── paths.yaml
+│   └── params.yaml
+│
+├── ingestion/
+│   └── load_with_pathway.py
+│
+├── chunking/
+│   └── narrative_chunker.py
+│
+├── retrieval/
+│   └── evidence_retriever.py
+│
+├── claims/
+│   └── backstory_parser.py
+│
+├── reasoning/
+│   └── constraint_checker.py
+│
+├── decision/
+│   └── final_classifier.py
+│
+├── evaluation/
+│   └── sanity_checks.py
+│
+├── docs/
+│   ├── claim_types.md
+│   └── contradiction_rules.md
+│
+└── outputs/
